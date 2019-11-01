@@ -16,8 +16,7 @@ public class MainSala {
 		sala.setDesarrollador4(desarrollador4);
 		
 		
-		System.out.println("MENSAJE PARA TODOS LOS MIEMBROS");
-		
+		System.out.println("MENSAJE PARA TODOS LOS MIEMBROS");		
 		desarrollador1.send("mensaje del Desarrollador 1");
 		System.out.println();
 		desarrollador2.send("mensaje del Desarrollador 2");

@@ -8,6 +8,7 @@ public class Parse {
 
 	public Parse(String s) {
 		context = new Contexto(s.replace(" ", ""));
+		System.out.println(context);
 		for (String token : s.split(" ")) {
 			switch (token) {
 			case "COMO":
